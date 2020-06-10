@@ -22,6 +22,9 @@ def update_status
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
+  epic_tragedy[:Montague][:hero][:status] = "dead"
+
+  epic_tragedy[:Capulet][:heroine][:status] = "dead"
 
 
 
@@ -67,6 +70,3 @@ def add_characters
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
-epic_tragedy[:Montague][:hero][:status] = "dead"
-
-epic_tragedy[:Capulet][:heroine][:status] = "dead"
